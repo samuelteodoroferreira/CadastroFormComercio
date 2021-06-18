@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Recadastramento Ambulantes</title>
+</head>
+
+<body>
+    <h1>Recadastramento de Ambulantes</h1>
+
+    <form action="/action_page.phpo" method="GET">
+        <label for="fname">Nome Completo:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <p>
+            <label for="ldataNasc">Data Nascimento:</label><br>
+            <input type="date" id="idataNasc" name="idataNasc">
+        </p>
+
+        <p>
+            <input type="text" name="cpf" \ pattern=(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2}) \ title="Digite um CPF no formato: xxx.xxx.xxx-xx">
+            <input type="submit" value="Verificar">
+        </p>
+
+    </form>
+
+
+</body>
+
+</html>

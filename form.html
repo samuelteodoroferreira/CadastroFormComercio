@@ -11,18 +11,57 @@
     <h1>Recadastramento de Ambulantes</h1>
 
     <form action="/action_page.phpo" method="GET">
-        <label for="fname">Nome Completo:</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <label for="l_name">Nome Completo:</label><br>
+        <input type="text" id="id_name" name="name_name"><br>
 
         <p>
-            <label for="ldataNasc">Data Nascimento:</label><br>
-            <input type="date" id="idataNasc" name="idataNasc">
+            <label for="l_dataNasc">Data Nascimento:</label><br>
+            <input type="date" id="id_dataNasc" name="name_dataNasc">
         </p>
 
         <p>
+            <label for="l_cpf">CPF:</label><br>
             <input type="text" name="cpf" \ pattern=(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2}) \ title="Digite um CPF no formato: xxx.xxx.xxx-xx">
             <input type="submit" value="Verificar">
         </p>
+
+        <p>
+            <label for="l_rg">RG:</label><br>
+            <input type="text" id="id_rg" name="name_rg">
+        </p>
+
+        <p>
+            <label for="l_ender">Endereço:</label><br>
+            <input type="text" id="id_ender" name="name_end">
+        </p>
+
+        <p>
+            <label for="l_bairro">Bairro:</label><br>
+            <input type="text" id="id_bairro" name="name_bairro">
+        </p>
+
+        <p>
+            <label for="l_cep">CEP:</label><br>
+            <input type="text" id="id_cep" name="name_cep">
+        </p>
+
+        <p>
+            <label for="l_compl">Complemento:</label><br>
+            <input type="text" id="id_compl" name="name_compl">
+        </p>
+
+        <p>
+            <label for="l_ender">Email:</label><br>
+            <input type="text" id="id_ender" name="name_end">
+        </p>
+
+
+
+
+
+
+
+
 
     </form>
 
